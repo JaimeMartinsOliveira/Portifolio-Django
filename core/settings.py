@@ -16,7 +16,7 @@ STATICFILES_DIRS = [
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['*', 'jaimemartins.tech', 'www.jaimemartins.tech']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '.vercel.app', '*']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -91,6 +91,7 @@ USE_L10N = True
 USE_TZ = True
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # apenas para produção
+
 STATIC_URL = '/static/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
