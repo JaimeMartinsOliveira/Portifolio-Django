@@ -147,6 +147,24 @@ body {
     }
 }
 
+.scrollTop {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed position on the page */
+    bottom: 20px; /* Adjust as needed */
+    right: 30px; /* Adjust as needed */
+    z-index: 99; /* Make sure it doesn't overlap other elements */
+    border: none; /* Remove default button border */
+    outline: none; /* Remove focus outline */
+    background-color: rgba(103, 80, 164, 0.7); /* Purple background with some transparency */
+    color: white; /* White text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
 
+.scrollTop:hover {
+    background-color: #6750a4; /* Darker purple on hover */
+}
 
     
